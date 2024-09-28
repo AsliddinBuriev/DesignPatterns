@@ -1,4 +1,7 @@
 package strategy;
 
-public class ItFlys {
+public class ItFlies implements Flies{
+    public String fly(){
+        return "I can fly.";
+    }
 }

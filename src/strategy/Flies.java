@@ -1,5 +1,5 @@
 package strategy;
 
-public interface Flys {
-    void fly();
+public interface Flies {
+    String fly();
 }
