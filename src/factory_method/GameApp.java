@@ -1,4 +1,4 @@
-package factory;
+package factory_method;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

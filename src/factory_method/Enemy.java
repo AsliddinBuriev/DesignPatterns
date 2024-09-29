@@ -1,4 +1,4 @@
-package factory;
+package factory_method;
 
 public abstract  class Enemy {
     private String name;
