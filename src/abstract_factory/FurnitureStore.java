@@ -47,6 +47,7 @@ public class FurnitureStore {
         System.out.println("Selected Furniture Type: " + furnitureType);
         System.out.println("Selected Product: " + product);
         System.out.println("Order Quantity: " + orderCount);
+
         try{
             processOrder(furnitureType, product, orderCount);
         }catch (Exception e) {

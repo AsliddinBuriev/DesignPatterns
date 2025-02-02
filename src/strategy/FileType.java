@@ -1,5 +1,5 @@
 package strategy;
 
-public enum FileTypes {
+public enum FileType {
     PDF, CSV, EXCEL;
 }

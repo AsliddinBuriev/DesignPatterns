@@ -6,10 +6,12 @@ import java.util.concurrent.TimeUnit;
 
 public class GameApp {
     public static void main(String [] args){
-        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+
         EnemyFactory enemyFactory = new EnemyFactory();
         Enemy fighterJetEnemy = enemyFactory.makeEnemy(EnemyTypes.FighterJet);
         Enemy rocketEnemy = enemyFactory.makeEnemy(EnemyTypes.Rocket);
+
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
         scheduler.schedule(() -> {
             fighterJetEnemy.displayEnemyShip();
         }, 1, TimeUnit.SECONDS);
